@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { QRCodeModule } from 'angular2-qrcode';
+//import { QRCodeModule } from 'angular2-qrcode';
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -48,7 +48,7 @@ import { CreateExpensiveComponent } from './expensive/expensive.component';
     ReactiveFormsModule,
     FormsModule,
     HttpModule,
-    QRCodeModule,
+   // QRCodeModule,
     RouterModule.forRoot([{ path: 'contact', component: ContactComponent },
     { path: 'home', component: HomeComponent },
     { path: 'faq', component: FaqComponent },
