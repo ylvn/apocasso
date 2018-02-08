@@ -19,9 +19,9 @@ import { LoginComponent } from './login/login.component';
 import { AdminDashbordComponent } from './adminDashbord/adminDashbord.component';
 import { PaymentsuccesseComponent } from './common/paymentsuccess.component'
 import { EditUserProfileComponent } from './editUserProfile/editUserProfile.component';
-import { ExpensiveComponent } from './expensive/expensive.component';
-import { ExpensiveDetailsComponent } from './expensive/expensive.component';
-import { CreateExpensiveComponent } from './expensive/expensive.component';
+//import { ExpensiveComponent } from './expensive/expensive.component';
+//import { ExpensiveDetailsComponent } from './expensive/expensive.component';
+//import { CreateExpensiveComponent } from './expensive/expensive.component';
 
 @NgModule({
   declarations: [
@@ -37,9 +37,9 @@ import { CreateExpensiveComponent } from './expensive/expensive.component';
     AdminDashbordComponent,
     PaymentsuccesseComponent,
     EditUserProfileComponent,
-    ExpensiveComponent,
-    ExpensiveDetailsComponent,
-    CreateExpensiveComponent,
+   // ExpensiveComponent,
+    //ExpensiveDetailsComponent,
+    //CreateExpensiveComponent,
   ],
   imports: [
     BrowserModule,
