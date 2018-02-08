@@ -124,7 +124,7 @@ export class SpendData {
 
 @Component({
   selector: 'app-expensiveDetails',
-  templateUrl: 'expensiveDetails.Component.html',
+  templateUrl: './expensiveDetails.Component.html',
 })
 export class ExpensiveDetailsComponent {
   constructor(@Inject(MAT_DIALOG_DATA) public data: any) {}
@@ -135,7 +135,7 @@ export class ExpensiveDetailsComponent {
 }
 @Component({
     selector: 'app-createExpensive',
-    templateUrl: 'createExpensive.Component.html',
+    templateUrl: './createExpensive.Component.html',
     providers:[
         SpendServices
       ]
