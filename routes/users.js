@@ -4,6 +4,7 @@ var router = express.Router();
 
 var mongojs = require('mongojs');
 var db = mongojs('mongodb://localhost:27017/apocdb');
+//var apocdb = require('../models/apocdb.js');
 
 // Get all APOCUsers
 router.get('/users', function(req, res, next){

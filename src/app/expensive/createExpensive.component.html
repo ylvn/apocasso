@@ -1,0 +1,25 @@
+<h3>Creating Expensive</h3>
+<mat-dialog-content>
+<mat-form-field>
+        <input matInput placeholder="Name" [(ngModel)]="FullName">
+</mat-form-field>
+<mat-form-field>
+        <input matInput placeholder="APOC ID" type="text" [(ngModel)]="ApocId">
+</mat-form-field><br>
+<mat-form-field>
+        <input matInput placeholder="Amount" type="number" class="example-right-align" [(ngModel)]="ExpAmount">
+        <span matPrefix>₹&nbsp;</span>
+        <span matSuffix>.00</span>
+</mat-form-field><br>
+<mat-form-field>
+        <textarea matInput placeholder="Perpose" [(ngModel)]="Purpose"></textarea>
+</mat-form-field><br>
+        <button mat-raised-button color="primary" (click)="saveExpensive()">Submit Expensive</button>
+        <button mat-raised-button color="primary" (click)="onClose()">Close</button>
+
+
+
+</mat-dialog-content>
+
+
+

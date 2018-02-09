@@ -14,7 +14,7 @@ var port = 3000;
 var app = express();
 
 //View engine
-
+app.use(bodyParser.json());
 app.set('views', path.join(__dirname, 'app'));
 app.set('view engine','ejs');
 app.engine('html', require('ejs').renderFile);
