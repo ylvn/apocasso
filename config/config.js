@@ -1,4 +1,4 @@
 module.exports = {
-    db: 'mongodb://apocuser:apocasso@localhost:27017/apocdb',
-    db_dev: 'mongodb:localhost:27017/apocdb',
-    };
+	db: 'mongodb:/username:password@url:port/db',
+	db_dev: 'mongodb:url:port/db',
+};
